@@ -1,0 +1,8 @@
+1. Create a new github repo and clone it in local.
+2. Get your api key from: https://makersuite.google.com/app/apikey
+3. Add a requirements.txt file and create your venv:
+    > conda create -p pdfchat python==3.10 -y (add pdfchat to .gitignore)
+    > conda activate .....
+    > pip install -r requirements.txt
+4. Create a .env file and add your api there. (API_KEY = "XXXXXXXXXX")
+5. Setup your app.py file and add code to it.
